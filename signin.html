@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign in</title>
+<!-- 	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+ -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+<style>
+	*
+	{
+		padding: 0;
+		margin: 0;
+	}
+	#image
+	{
+		display: flex;
+		justify-content: center;
+
+		width: 100%;
+		height:100px;
+	}
+	.Signin
+	{
+		margin: auto;
+
+		width: 350px;
+		height: 300px;
+		border:1px solid grey;
+		border-radius:6px;
+	}
+	.Signin-1
+	{
+		margin-top: 20px;
+		margin-bottom: 10px;
+		margin-left: 20px;
+		font-weight: 500;
+	}
+	.form
+	{
+		margin-left: 20px;
+		margin-right: 30px;
+
+
+	}
+	#text:focus
+	{
+		outline: 0;
+	
+		box-shadow: 0px 0px 8px 2px orange;
+		
+		
+		
+   }
+   #continue
+   {
+   	margin-top: 25px;
+   	height: 32px;
+   	width:100%;
+   	border: 2px solid rgb(175, 170, 170);
+   	border-radius: 5px;
+   	background-color: rgb(244, 204, 99)
+   }
+   #continue:hover
+   {
+   	background-color: rgb(241, 199, 94);
+
+   }
+   .termsAndConndition
+   {
+   	font-size: 13px;
+   	margin-top: 40px;
+   	
+   	font-weight:normal;
+   }
+   .footer
+   {
+   	margin-top:90px;
+   	width: 100%; 
+   	display: flex;
+   	height:262px;
+   	box-shadow: 1px 0px 3px 3px lightgrey;
+   	justify-content: center;
+   	align-items: center;
+
+
+  align-items:start;
+   	background-color: rgb(252, 247, 247);
+   }
+   .anchor-item
+   {
+
+width: 100%;
+position: absolute;
+left: 0;
+   	margin-top:40px; 
+   	display: inline-block;
+   	text-align: center;
+   }
+   #text
+   {
+   	width: 100%;
+   	height: 28px;
+   	border-radius: 5px;
+   	outline: none;
+   	border: 0.1px solid lightgrey;
+   }
+   .accepted
+   {
+
+   }
+
+
+	
+
+	
+</style>
+
+
+<body>
+	<div id="image">
+		<a href="1.html"><img src="amazon.png" width="200px" height="100px" ></a>
+	</div>
+	<div class="Signin">
+		<h1 class="Signin-1">Login</h1>
+		<form class="form">
+			<b>Email or mobile phone number</b>
+			<br>
+			
+			<input type="text" id="text" > 
+			<div class="accepted">
+				
+			</div>
+					<button type="button" id="continue" onclick="validation()">Continue</button>
+			
+
+					<p class="termsAndConndition">By continuing, you agree to Amazon's <a href="" style="text-decoration: none;"> Conditions of Use</a> and <a href="" style="text-decoration: none;">Privacy Notice</a>.</p>
+
+		</form>
+
+
+
+		
+	</div>
+	<div class="footer">
+		<div style="margin-top: 80px;font-size: 12px;">
+				© 1996-2020, Amazon.com, Inc. or its affiliates
+		</div>
+		<div class="anchor-item">
+	
+		<a href="" style="margin-right: 20px; text-decoration: none; font-size: 14px"> Conditions of Use </a>
+		<a href="" style="margin-right: 20px; text-decoration: none;font-size: 14px"> Privacy Notice </a>
+		<a href="" style="margin-right: 20px;text-decoration: none; font-size:14px;" >Help </a>
+		
+		</div>
+		
+			
+		
+	
+	</div>
+
+
+<script type="text/javascript" rel ="script" src="signin.js"></script>
+
+
+</body>
+
+</html>
